@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemen Üye Ol</title>
+</head>
+
+<body>
+    <header>
+        <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    </header>
+    <form action="#">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2" style="text-align: left;">
+                        <h2>Hesap Bilgileriniz</h2>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="username">Kullanıcı Adı:</label></td>
+                    <td><input type="text" name="username" placeholder="Kullanıcı adı giriniz:"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E Posta:</label></td>
+                    <td><input type="email" name="email" placeholder="E posta adresinizi giriniz:"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Şifre:</label></td>
+                    <td><input type="password" name="password" placeholder="Şifre giriniz:"></td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2" style="text-align: left;">
+                        <h2>Kişisel Bilgileriniz</h2>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="firstName">Adınız:</label></td>
+                    <td><input type="text" name="firstName" placeholder="Adınızı giriniz:"></td>
+                </tr>
+                <tr>
+                    <td><label for="lastName">Soyadınız:</label></td>
+                    <td><input type="text" name="lastName" placeholder="Soyadınızı giriniz:"></td>
+                </tr>
+                <tr>
+                    <td><label for="city">Yaşadığınız Şehir:</label></td>
+                    <td><input type="text" name="city" placeholder="Yaşadığınız şehri giriniz:"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Cinsiyetiniz:</label></td>
+                    <td>
+                        <input type="radio" name="gender" value="male"> Erkek
+                        <input type="radio" name="gender" value="female"> Kadın
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobileriniz:</td>
+                    <td>
+                        <input type="checkbox" name="hobbies" value="sports"> Spor
+                        <input type="checkbox" name="hobbies" value="music"> Müzik
+                        <input type="checkbox" name="hobbies" value="travel"> Seyahat
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit">Üye Ol</button>
+        <button type="reset">Temizle</button>
+    </form>
+</body>
+
+</html>

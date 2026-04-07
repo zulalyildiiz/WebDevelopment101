@@ -6,8 +6,6 @@ A collection of beginner-level projects developed to reinforce fundamental and i
 
 This repository contains hands-on exercises and small-scale projects created throughout the learning process of modern web technologies. The focus is on understanding core concepts and building a solid foundation.
 
-The projects are inspired by and developed alongside the Udemy course:
-**“Komple Web Developer Kursu”**
 
 ## Technologies
 

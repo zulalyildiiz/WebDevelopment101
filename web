@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En İyi Filmler</title>
+</head>
+
+<body>
+    <h1 style="color: rgb(0, 157, 255);">Tüm Zamanların En İyi Filmleri</h1>
+    <table>
+        <tr>
+            <th>Film Adı</th>
+            <th>Yapım Yılı</th>
+            <th>Yönetmen</th>
+        </tr>
+        <tr>
+            <td>The Shawshank Redemption</td>
+            <td>1994</td>
+            <td>Frank Darabont</td>
+        </tr>
+        <tr>
+            <td>The Godfather</td>
+            <td>1972</td>
+            <td>Francis Ford Coppola</td>
+        </tr>
+        <tr>
+            <td>The Dark Knight</td>
+            <td>2008</td>
+            <td>Christopher Nolan</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>

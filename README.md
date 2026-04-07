@@ -1,5 +1,4 @@
 # WebDevelopment101
-# WebDevelopment101
 
 A collection of beginner-level projects developed to reinforce fundamental and intermediate web development skills.
 

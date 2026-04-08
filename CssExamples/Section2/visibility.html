@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieApp - Navbar</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .main-header {
+            background-color: #FC997C;
+            padding: 10px 20px;
+        }
+
+        .main-nav {
+            display: inline-block;
+            width: 91%;
+            text-align: right;
+        }
+
+        .main-nav a,
+        .main-header a {
+            text-decoration: none;
+            color: white;
+            padding: 5px 10px;
+        }
+
+        #showcase {
+            background-color: #2E4C6D;
+            height: 500px;
+            width: 100%;
+            padding: 20px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #how-it-works {
+            background-color: #FC997C;
+            padding: 40px 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <a href="#" style="font-weight: bold; font-size: 1.2rem;">MovieApp</a>
+        <nav class="main-nav">
+            <a href="#">Home</a>
+            <a href="#" style="visibility: hidden;">Movies</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="showcase">
+            <h1>Welcome to MovieApp</h1>
+        </section>
+
+        <section id="how-it-works">
+            <h2>How it works?</h2>
+            <p>Explore the best movies in the world!</p>
+        </section>
+    </main>
+
+</body>
+
+</html>

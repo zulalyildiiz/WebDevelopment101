@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cineverse - Hemen İzle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        .box {
+            border: 2px solid rgb(255, 255, 255);
+            padding: 5px 10px;
+            display: inline-block;
+        }
+
+        header {
+            background-color: #0F172A;
+            display: flex;
+            align-items: center;
+        }
+
+        nav {
+            text-align: right;
+            width: 85%;
+        }
+
+        nav ul li a:link {
+            color: white;
+        }
+
+        nav ul li a:visited {
+            color: rgb(223, 203, 31);
+        }
+
+        nav ul li a:hover {
+            color: rgb(67, 56, 220);
+        }
+
+        nav ul li a:active {
+            color: rgb(41, 35, 135);
+        }
+
+        #showcase {
+            background-color: #0F172A;
+            background-size: cover;
+            background-position: center;
+            width: 49%;
+        }
+
+
+        #how-to-register {
+            background-color: #0F172A;
+            color: white;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="../../HtmlExamples/imageSources/logo.png" alt="Cineverse Logo" width="200" height="200">
+        <nav>
+            <ul>
+                <li><a href="#" class="box"><i class="fa-solid fa-arrow-right-to-bracket"></i>Giriş Yap</a></li>
+                <li><a href="#" class="box"><i class="fa-solid fa-user-plus"></i>Kaydol</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section background-color="#0F172A">
+        <img id="showcase" src="../../HtmlExamples/imageSources/pic2.png" alt="Showcase Image">
+        <img id="showcase" src="../../HtmlExamples/imageSources/pic3.png" alt="Showcase Image">
+    </section>
+    <div id="how-to-register">
+        <h2>Nasıl Kayıt Olunur?</h2>
+        <p>Hemen kaydolun ve binlerce filme erişin!</p>
+
+        <div class="box">
+            <a href="#">
+                <i class="fa-solid fa-user-plus"></i>
+                <h2>Kaydol</h2>
+            </a>
+        </div>
+
+
+        <div class="box"><a href="#">
+                <i class="fa-solid fa-bars-staggered"></i>
+                <h2>Plan Seç</h2>
+            </a></div>
+
+
+        <div class="box"><a href="#"><i class="fa-regular fa-face-smile-beam"></i>
+                <h2>İyi Seyirler!</h2>
+            </a></div>
+
+    </div>
+</body>

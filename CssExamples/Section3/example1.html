@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        header {
+            background-color: lightblue;
+            height: 100px;
+        }
+
+        footer {
+            background-color: lightcoral;
+            height: 100px;
+        }
+
+        .box {
+            padding: 10px;
+        }
+
+        #menu {
+            float: left;
+            width: 25%;
+            padding: 15px 15px 15px 0px;
+            height: 200px;
+        }
+        #menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        #content {
+            width: 75%;
+            float: left;
+            padding: 10px;
+        }
+        #menu li {
+            background-color: lightgreen;
+            text-align: center;
+            border: 1px solid blue;
+            display: block;
+            padding: 10px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <section id="menu">
+        <nav>
+            <ul>
+                <li class="box"><a href="#">Home</a></li>
+                <li class="box"><a href="#">About</a></li>
+                <li class="box"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    
+    <section id="content">
+        <h1>Content</h1>
+        <body>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+        </body>
+    </section>
+    <section class="clearfix">
+    </section>
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+</body>

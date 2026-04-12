@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .box1 {
+            padding: 5px 10px;
+            display: inline-block;
+            margin-bottom: 50px;
+        }
+
+        .box1 li {
+            display: inline-block;
+            margin-left: 10px;
+
+        }
+
+        #language {
+            position: absolute;
+            right: 300px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 120px;
+            color: white;
+        }
+
+        .signin {
+            position: absolute;
+            right: 150px;
+
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            position: relative;
+            align-items: center;
+        }
+
+        body {
+            background-image: url("../media/bg.png");
+            background-size: cover;
+            height: 3000px;
+        }
+
+        .btn1 {
+            background-color: rgb(219, 0, 0);
+            color: white;
+            border: none;
+            text-size-adjust: 25px;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 5px;
+            height: 30px;
+        }
+
+        .btn1:hover {
+            background-color: rgb(255, 0, 0);
+            opacity: 0.9;
+            transition: opacity 0.3s;
+        }
+
+        #logo {
+            position: absolute;
+            background-image: url(../media/netLogo.png);
+            left: 100px;
+            width: 200px;
+            margin-top: 0px;
+        }
+
+        #start {
+            color: white;
+            text-align: center;
+            margin-top: 150px;
+            position: relative;
+        }
+
+        #first {
+            font-size: 50px;
+
+            left: 30%;
+            top: 0px;
+            text-align: center;
+        }
+
+        #sec {
+            font-size: 25px;
+            top: 120px;
+            left: 30%;
+            text-align: center;
+        }
+
+        #third {
+            font-size: 20px;
+            margin-top: 20px;
+            left: 30%;
+            top: 220px;
+            text-align: center;
+        }
+
+        #email {
+            left: 30%;
+            top: 300px;
+            align-items: center;
+        }
+
+        #btn2 {
+            position: fixed;
+            background-color: rgb(219, 0, 0);
+            color: white;
+            bottom: 20px;
+            right: 10px;
+            border: none;
+            text-size-adjust: 25px;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 5px;
+            height: 30px;
+        }
+
+        #btn3 {
+            position: fixed;
+            bottom: 65px;
+            right: 10px;
+        }
+
+        #btn3 i {
+            color: rgb(219, 0, 0);
+        }
+        #btn3 i:hover {
+            opacity: 1;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="../media/netLogo.png" alt="Netflix Logo">
+        <div id="language&signin">
+            <ul>
+                <li class="box1 language"><select name="language" id="language">
+                        <option value="english">English</option>
+                        <option value="turkish" selected>Türkçe</option>
+                    </select></li>
+                <li class="box1 signin"><a href="#"><button class="btn1"><strong>Oturum Aç</strong></button></a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="start">
+        <h1 id="first"><strong>Sınırsız film, dizi ve çok daha fazlası</strong></h1>
+        <h3 id="sec"><strong>189,99 TL ile başlayan fiyatlarla. İstediğiniz zaman iptal edebilirsiniz.</strong></h3>
+        <h3 id="third">İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için tek yapmanız gereken
+            e-posta adresinizi girmek.</h3>
+        <div id="email">
+            <input type="email" placeholder="E-posta adresi" size="50">
+            <a href="#"><button class="btn1"><strong>Başlayın</strong></button></a>
+        </div>
+    </div>
+    <div id="help">
+        <button id="btn2"><strong>Canlı Destek</strong></button>
+    </div>
+    <div id="up">
+        <button id="btn3"><i class="fa-solid fa-angle-up"></i></button>
+    </div>
+</body>
